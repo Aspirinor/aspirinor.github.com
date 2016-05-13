@@ -10,8 +10,10 @@ task :new do
 	@name = STDIN.gets.chomp
 	puts "请输入 post 子标题："
 	@subtitle = STDIN.gets.chomp
-	puts "请输入 post 分类，以空格分隔："
-	@categories = STDIN.gets.chomp
+	puts "请输入header-img地址"
+	@url2 = STDIN.gets.chomp
+	puts "请输入catalog值"
+	@catalog = STDIN.gets.chomp
 	puts "请输入 post 标签："
 	@tag = STDIN.gets.chomp
 	@slug = "#{@url}"
@@ -27,9 +29,10 @@ task :new do
 			file.puts "layout: post"
 			file.puts "title: #{@name}"
 			file.puts "subtitle: #{@subtitle}"
-			file.puts "author: pizida"
+			file.puts "author: Aspirinor"
+			file.puts "header-img: #{@url2} "
+			file.puts "catalog: #{@catalog}"
 			file.puts "date: #{Time.now}"
-			file.puts "categories: #{@categories}"
 			file.puts "tag: #{@tag}"
 			file.puts "---"
 	end
