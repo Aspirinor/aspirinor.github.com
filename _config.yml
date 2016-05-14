@@ -27,7 +27,7 @@ anchorjs: true                          # if you want to customize anchor. check
 
 
 # SNS settings
-RSS: false
+RSS: true
 github_username:    aspirinor
 
 
@@ -42,9 +42,9 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: Aspirinor
+duoshuo_username: aspirinor
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+duoshuo_share: false              # set to false if you want to use Comment without Sharing
 
 
 
