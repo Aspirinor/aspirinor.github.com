@@ -13,8 +13,7 @@ email: chrisaspirinor@gmail.com
 description: "关于医学生、伪文艺青年、伪科技宅以及真幻想病患者 | Aspirinor，医学生、读点书、偶尔折腾下电脑 | 这里是 @Aspirinor 的个人博客，与你一起发现更大的世界。 "
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+
 
 
 # Build settings
@@ -28,6 +27,7 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # SNS settings
 RSS: true
+weibo_username:     Chrisde9326
 github_username:    aspirinor
 
 
@@ -66,8 +66,10 @@ sidebar-avatar:  /img/avatar-aspirinor.jpg    # use absolute URL, seeing it's us
 
 
 # Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
+featured-tags: true                  # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
 port: 5012
 
 
