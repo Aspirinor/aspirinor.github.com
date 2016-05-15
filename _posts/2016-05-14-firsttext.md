@@ -31,7 +31,7 @@ jekyll本身对Mac的支持更好一点，主要是ruby环境对Mac的支持更�
 
 整个搭建过程可以分为四步：
 
-### 一 安装ruby和devkit
+#### 一 安装ruby和devkit
 
 这是第一步，也是很重要的一步，因为jekyll的安装需要这个环境，具体的安装方法可以自行google，
 这里推荐一篇博文，搭建可以参考
@@ -44,7 +44,7 @@ jekyll本身对Mac的支持更好一点，主要是ruby环境对Mac的支持更�
 
 如果返回版本号说明安装成功。
 
-### 二 安装jekyll
+#### 二 安装jekyll
 
 执行
 
@@ -60,7 +60,7 @@ jekyll本身对Mac的支持更好一点，主要是ruby环境对Mac的支持更�
 
 中间细节部分参考上面那篇博文。
 
-### 三 创建Github库并创建Github Pages
+#### 三 创建Github库并创建Github Pages
 
 之所以有这一步是因为我的网站是部署在github上的。这样做的好处是免费且不限流量，
 
@@ -70,7 +70,7 @@ jekyll本身对Mac的支持更好一点，主要是ruby环境对Mac的支持更�
 
 * [Jekyll本地搭建开发环境以及Github部署流程](http://pizida.com/technology/2016/03/03/use-jekyll-create-blog-on-github/#github-pages)
 
-### 四 将网站部署至github的库
+#### 四 将网站部署至github的库
 
 这一步完全参考上面的博文。
 
