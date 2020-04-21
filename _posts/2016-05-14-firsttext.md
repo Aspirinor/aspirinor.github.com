@@ -6,7 +6,7 @@ author: Aspirinor
 header-img: img/home-bg-o.jpg 
 catalog: true
 date: 2016-05-14 11:30:38 +0800
-tag: 其他
+tag: 
 ---
 ## 前言
 
