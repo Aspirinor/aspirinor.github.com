@@ -1,22 +1,18 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f7f8f9;
     margin: 0;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    padding: 0;
+    overflow: hidden; /* 防止出现滚动条 */
 }
 
 .calendar-container {
-    background-color: #e7f4e4;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 380px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f7f8f9; /* 设置整体背景色 */
 }
 
 .header {
@@ -25,10 +21,11 @@ body {
     align-items: center;
     margin-bottom: 20px;
     font-family: 'Arial Rounded MT Bold', sans-serif;
+    width: 90%;
 }
 
 .year-month {
-    font-size: 20px;
+    font-size: 24px;
     color: #3a5f40;
     background-color: #c3e5c1;
     padding: 5px 10px;
@@ -45,6 +42,7 @@ body {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 5px;
+    width: 90%;
 }
 
 .day {
@@ -59,11 +57,11 @@ body {
 
 .date {
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 16px;
     color: #333;
     padding: 5px;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
